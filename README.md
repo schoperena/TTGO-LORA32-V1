@@ -19,13 +19,13 @@ Para poder funcinar, se necesita las siguientes librerias en el ide de Arduino:
 * Adafruit SSD1306 by Adafruit
 * Adafruit GFX Library by Adafruit
 
-### Como cambiar el boot logo
+## Como cambiar el boot logo
 
 Dentro de cada proyecto de arduino, se encvuentra un archivo logo.h, en el cual se encuentra un arreglo de bytes que se traduce en la imagen de arranque.
 
-Como creamos nuestra propia imagen de arranque:
+##### Como creamos nuestra propia imagen de arranque:
 
 1. Creamos una imgen blanco y negro con dimensiones 128x64 (importante
- que los colores sean totalmente blanco y totalmente negro para que al convertirlo se interprete bien)
-2.  nos dirigimos a la siguiente pagina para hacer la conversión [image2cpp](http://javl.github.io/image2cpp/) y generamos el codigo
+ que los colores sean totalmente blanco y totalmente negro para que al convertirlo se interprete bien).
+2.  nos dirigimos a la pagina [image2cpp](http://javl.github.io/image2cpp/) para hacer la conversión  y generamos el codigo.
 3. reemplazamos el codigo en el archivo logo.h y listo.
