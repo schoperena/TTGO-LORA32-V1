@@ -27,5 +27,5 @@ Como creamos nuestra propia imagen de arranque:
 
 1. Creamos una imgen blanco y negro con dimensiones 128x64 (importante
  que los colores sean totalmente blanco y totalmente negro para que al convertirlo se interprete bien)
-2.  nos dirigimos a la siguiente pagina para hacer la conversión [image2cpp] (http://javl.github.io/image2cpp/) y generamos el codigo
+2.  nos dirigimos a la siguiente pagina para hacer la conversión [image2cpp](http://javl.github.io/image2cpp/) y generamos el codigo
 3. reemplazamos el codigo en el archivo logo.h y listo.
