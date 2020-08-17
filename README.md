@@ -28,4 +28,4 @@ Dentro de cada proyecto de arduino, se encuentra un archivo logo.h, en el cual s
 1. Creamos una imagen blanco y negro con dimensiones 128x64, importante
  que los colores sean totalmente blanco (#FFFFFF) y totalmente negro (#000000) para que al convertirlo se interprete bien.
 2.  nos dirigimos a la pagina [image2cpp](http://javl.github.io/image2cpp/) para hacer la conversión  y generamos el código.
-3. reemplazamos el código en el archivo logo.h y listo.
+3. reemplazamos el código en el archivo logo.h.
